@@ -16,6 +16,18 @@ header{
 header h1{
     color: #ccb89a;
     font-size: 25px;
+    margin: 30px;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 40px;
+    width: 40px;
+    float: right;
+    text-decoration: none;
+    border-radius: 20%;
+    color: #ccb89a;
+    position: relative;
 }
 .nav-menu ul {
     list-style-type: none;
