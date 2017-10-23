@@ -1,52 +1,6 @@
-style.css
 
-* The Overlay (background) */
-.overlay {  
-    height: 100%;
-    width: 0;
-    position: relative; /* Stay in place */
-    left: ;
-    top: 0;
-    background-color: rgb(0,0,0); /* Black fallback color */
-    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
-    overflow-x: hidden; /* Disable horizontal scroll */
-    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
-}
 
-/* Position the content inside the overlay */
-.overlay-content {
-    display": inline-block;
-    position: relative;
-    top: 25%; /* 25% from the top */
-    width: 100%; /* 100% width */
-    text-align: center; /* Centered text/links */
-    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
-}
-
-/* The navigation links inside the overlay */
-.overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color: #818181;
-    display: block; /* Display block instead of inline */
-    transition: 0.3s; /* Transition effects on hover (color) */
-}
-
-/* When you mouse over the navigation links, change their color */
-.overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
-}
-
-/* Position the close button (top right corner) */
-.overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-}
-
-/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap *
 @media screen and (max-height: 450px) {
     .overlay a {font-size: 20px}
     .overlay .closebtn {
@@ -54,4 +8,101 @@ style.css
         top: 15px;
         right: 35px;
     }
+*/
+
+header{
+    background-color: #061f3a;
 }
+header h1{
+    color: #ccb89a;
+    font-size: 25px;
+}
+.nav-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: inline-block;
+}
+
+.nav-menu li {
+    float: left;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 0;
+    border: 0;
+    border-top: solid #ccb89a 4px;
+    border-bottom: solid #ccb89a 4px;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav-menu li a:hover {
+    background-color: #111;
+}
+.nav-menu{
+    text-align: center;
+}
+
+
+
+
+/*
+* The Overlay (background) *
+.overlay {  
+    height: 100%;
+    width: 0;
+    position: relative; /* Stay in place *
+    left: ;
+    top: 0;
+    background-color: rgb(0,0,0); /* Black fallback color *
+    background-color: rgba(0,0,0, 0.9); /* Black w/opacity *
+    overflow-x: hidden; /* Disable horizontal scroll *
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) *
+}
+
+/* Position the content inside the overlay *
+.overlay-content {
+    display": inline-block;
+    position: relative;
+    top: 25%; /* 25% from the top *
+    width: 100%; /* 100% width *
+    text-align: center; /* Centered text/links *
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens *
+}
+
+/* The navigation links inside the overlay *
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block; /* Display block instead of inline *
+    transition: 0.3s; /* Transition effects on hover (color) *
+}
+
+/* When you mouse over the navigation links, change their color *
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) *
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+*/
+
+
+
