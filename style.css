@@ -19,14 +19,25 @@ header h1{
     margin: 30px;
 }
 
+
 .fa {
-    padding: 15px;
+    padding: 25px;
     font-size: 40px;
     width: 40px;
     float: right;
     text-decoration: none;
     border-radius: 20%;
     color: #ccb89a;
+    position: static;
+}
+.logo {
+    margin: 10px 0 10px 0;
+    width: 200px;
+
+}
+img {
+    vertical-align: middle;
+    border: 0;
     position: relative;
 }
 .nav-menu ul {
@@ -34,7 +45,7 @@ header h1{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #061f3a;
     display: inline-block;
 }
 
@@ -46,7 +57,7 @@ header h1{
     text-decoration: none;
     display: inline-block;
     padding: 10px 20px;
-    background: none;
+    background-color: #061f3a;
     color: white;
     font-size: 15px;
     border-radius: 0;
@@ -57,6 +68,7 @@ header h1{
     font-weight: bold;
 }
 
+
 /* Change the link color to #111 (black) on hover */
 .nav-menu li a:hover {
     background-color: #111;
@@ -64,7 +76,25 @@ header h1{
 .nav-menu{
     text-align: center;
 }
+body{
+    background-color: #fff;
+}
 
+h2{
+    border-bottom: 1px dashed;
+    padding: 10px;
+    display: inline-block;
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+ p{
+    font-family: 'FuturaBold', "Trebuchet MS", Arial, sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.4;
+    color: #000000;
+ }
 
 
 
