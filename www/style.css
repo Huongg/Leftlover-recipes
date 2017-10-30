@@ -96,8 +96,8 @@ h2{
     color: #000000;
  }
 
-/*Style the sign-up form */
-/* Full-width input fields */
+/*Style the sign-up form 
+* Full-width input fields *
 input[type=text], input[type=password] {
     width: 100%;
     padding: 12px 20px;
@@ -107,7 +107,7 @@ input[type=text], input[type=password] {
     box-sizing: border-box;
 }
 
-/* Set a style for all buttons */
+/* Set a style for all buttons *
 button {
     background-color: #4CAF50;
     color: white;
@@ -118,29 +118,36 @@ button {
     width: 100%;
 }
 
-/* Extra styles for the cancel button */
+/* Extra styles for the cancel button *
 .cancelbtn {
     padding: 14px 20px;
     background-color: #f44336;
 }
 
-/* Float cancel and signup buttons and add an equal width */
+/* Float cancel and signup buttons and add an equal width *
 .cancelbtn,.signupbtn {
     float: left;
     width: 50%;
 }
-
-/* Add padding to container elements */
+/* Add padding to container elements *
 .container {
     padding: 16px;
 }
 
-/* Clear floats */
+/* Clear floats *
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
 }
+*/
+
+/*
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+*/
 
 /* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {
