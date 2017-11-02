@@ -71,7 +71,7 @@
 		
 	</header>
 
-	<div class="container">
+	<div class="Intro">
 		<div class="row">
 			<div class="col-sx-12 text-center">
 				<h2>About Us</h2>
@@ -82,51 +82,77 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12 text-center">
+			<div class="col-sx-12 text-center">
 				<h2>The Recipes</h2>
 			</div>
-			<aside class="col-sm-3" role="complementary">
+			<aside id="left-nav" class="col-sm-3" role="complementary">
                   <div class="region region-sidebar-first well">
                   	<form action="action.php" method="post">
 	                  	<div class="custom-checkbox">
 		                  	<h4 class="block-title">Filter by diatery</h4>
-							<label class="container">Vegetarian
-								<input type="checkbox" checked="checked">
+							<label class="container" value=".Vegetarian">Vegetarian
+								<input type="checkbox">
   								<span class="checkmark"></span> 
 							</label>
-							<label class="container">African
-								<input type="checkbox" checked="checked">
+							<label class="container" value=".African">African
+								<input type="checkbox">
   								<span class="checkmark"></span> 
 							</label>
-							<label class="container">Vietnamese
-								<input type="checkbox" checked="checked">
+							<label class="container" value=".Vietnamese">Vietnamese
+								<input type="checkbox">
   								<span class="checkmark"></span> 
 							</label>
 		                  	<br>
 		                  	<br>
 							<h4 class="block-title">Cooking Time</h4>
-							<label class="container">30 mins
-								<input type="checkbox" checked="checked">
+							<label class="container" value=".30 mins">30 mins
+								<input type="checkbox">
   								<span class="checkmark"></span> 
 							</label>
-							<label class="container">45 mins
-								<input type="checkbox" checked="checked">
+							<label class="container" value=".45 mins">45 mins
+								<input type="checkbox">
   								<span class="checkmark"></span> 
 							</label>
-							<label class="container">60 mins
-								<input type="checkbox" checked="checked">
+							<label class="container" value=".60 mins">60 mins
+								<input type="checkbox">
   								<span class="checkmark"></span> 
 							</label>
 		                </div>
 	                </form>
                   </div>    
             </aside>
+            <section id="main-content" class="col-sm-9">
+	            	<div class="view-content">
+		            	<div class="clearfix">
+		            		<div class="col-sm-3">
+		            			<p>Recipe 1</p>			            	
+		            		</div>
+		            		<div class="col-sm-3">
+		            			<p>Recipe 2</p>			            	
+		            		</div>
+		            		<div class="col-sm-3">
+		            			<p>Recipe 3</p>			            	
+		            		</div>
+		            		<div class="col-sm-3">
+		            			<p>Recipe 4</p>			            	
+		            		</div>
+		            		<div class="col-sm-3">
+		            			<p>Recipe 5</p>			            	
+		            		</div>
+		            		<div class="col-sm-3">
+		            			<p>Recipe 6</p>			            	
+		            		</div>
+		            	</div>
+	            	</div>
+	            		
+
+            </section>
 		</div>
 	</div>
 
 
 
-	<div class="container">
+	<footer>
 		<div class="row">
 			<div class="col-sx-6 text-center">
 				<h2>Latest Recipes!</h2>
@@ -134,14 +160,16 @@
 
 				<!-- CTA Sign-up form -->
 				<form role='form'>
-		          <label for="email">Your Email</label>
-		          <input type="text" name="email" >
-		          <button id="button" type="button">Submit</button>
-		        </form>
-		        <div class="response"></div>
+			         <label for="email">Your Email</label>
+			         <input type="text" name="email" >
+			         <button id="button" type="button">Submit</button>
+			     </form>
+			 	<div class="response"></div>
+
 			</div>
 		</div>
-	</div>	
+	</footer>
+	
 	<!--
 	<!- The overlay ->
 	<div id="myNav" class="overlay">
