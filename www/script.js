@@ -7,4 +7,8 @@ $(document).ready(function(){
 		//$('.response').append(emailResponse) ;
 		$('.response').text(emailResponse) ;
 	});
+
+	//$('.custom-checkbox').change( fuction(){
+		//alert('1');
+	//});	
 });
