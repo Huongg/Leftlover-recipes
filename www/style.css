@@ -113,7 +113,7 @@ h2 {
 .checkbox-value {
   display: block;
   position: absolute;
-  padding-left: 30px;
+  padding-left: 10px;
   margin-bottom: 10px;
   margin-left: 10px;
   cursor: pointer;
@@ -127,7 +127,7 @@ h2 {
 
 
 /* Hide the browser's default checkbox */
-.custom-checkbox input {
+.checkbox-container input {
   position: absolute;
   opacity: 0;
 }
@@ -145,23 +145,24 @@ h2 {
 
 
 /* When the checkbox is checked, add a blue background */
-.checkbox-value input:checked ~ .checkmark {
-  background-color: #2196F3;
+.checkbox-container input:checked ~ .checkmark {
+  background-color: #061f3a;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
 .checkmark:after {
   content: "";
+  position: absolute;
   display: none;
 }
 
 /* Show the checkmark when checked */
-.custom-checkbox input:checked ~ .checkmark:after {
+.checkbox-container input:checked ~ .checkmark:after {
   display: block;
 }
 
 /* Style the checkmark/indicator */
-.custom-checkbox .checkmark:after {
+.checkbox-container.checkmark:after {
   left: 5px;
   top: 3px;
   width: 5px;

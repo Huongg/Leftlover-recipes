@@ -86,70 +86,89 @@
 				<h2>The Recipes</h2>
 			</div>
 			<aside id="left-nav" class="col-sm-3" role="complementary">
-                  <div class="region region-sidebar-first well">
-                  	<form action="action.php" method="post">
-	                  	<div class="custom-checkbox">
-		                  	<h4 class="block-title">Filter by diatery</h4>
-		                  	<div class="checkbox-container">
-								<label class="checkbox-value" value=".Vegetarian">Vegetarian</label>
-								<input type="checkbox">
-  								<span class="checkmark"></span> 
-							</div>
-							<div class="checkbox-container">
-								<label class="checkbox-value" value=".African">African</label>
-								<input type="checkbox">
-  								<span class="checkmark"></span> 
-							</div>
-							<div class="checkbox-container">
-								<label class="checkbox-value" value=".Vietnamese">Vietnamese</label>
-								<input type="checkbox">
-  								<span class="checkmark"></span> 
-							</div>
-		                  	<br>
-		                  	<br>
-							<h4 class="block-title">Cooking Time</h4>
-							<div class="checkbox-container">
-								<label class="checkbox-value" value=".30 mins">30 mins</label>
-								<input type="checkbox">
-  								<span class="checkmark"></span> 
-							</div>
-							<div class="checkbox-container">
-								<label class="checkbox-value" value=".45 mins">45 mins</label>
-								<input type="checkbox">
-  								<span class="checkmark"></span> 
-							</div>
-							<div class="checkbox-container">
-								<label class="checkbox-value" value=".60 mins">60 mins</label>
-								<input type="checkbox">
-  								<span class="checkmark"></span> 
-							</div>
-		                </div>
-	                </form>
-                  </div>    
-            </aside>
-            <section id="main-content" class="col-sm-9">
-	            	<div class="view-content">
-		            	<div class="clearfix">
-		            		<div class="col-sm-3">
-		            			<h4>Recipe 1</h4>	  	
-		            		</div>
-		            		<div class="col-sm-3">
-		            			<h4>Recipe 2</h4>			            	
-		            		</div>
-		            		<div class="col-sm-3">
-		            			<h4>Recipe 3</h4>			            	
-		            		</div>
-		            		<div class="col-sm-3">
-		            			<h4>Recipe 4</h4>			            	
-		            		</div>
-		            		<div class="col-sm-3">
-		            			<h4>Recipe 5</h4>			            	
-		            		</div>
-		            		<div class="col-sm-3">
-		            			<h4>Recipe 6</h4>			            	
-		            		</div>
-		            	</div>
-	            	</div>
+			    <div class="region region-sidebar-first well">
+			        <form action="action.php" method="post">
+			            <div class="custom-checkbox">
+			                <h4 class="block-title">Filter by diatery</h4>
+			                <div class="checkbox-container">
+			                    <label class="checkbox-value">Vegetarian</label>
+			                    <input id="checkbox1" name="filter" type="checkbox" value=".Vegetarian">
+			                    <span class="checkmark"></span> 
+			                </div>
+			                <div class="checkbox-container">
+			                    <label class="checkbox-value">African</label>
+			                    <input id="checkbox2" name="filter"type="checkbox" value=".African">
+			                    <span class="checkmark"></span> 
+			                </div>
+			                <div class="checkbox-container">
+			                    <label class="checkbox-value">Vietnamese</label>
+			                    <input id="checkbox3" name="filter"type="checkbox" value=".Vietnamese">
+			                    <span class="checkmark"></span> 
+			                </div>
+			                <br>
+			                <br>
+			                <h4 class="block-title">Cooking Time</h4>
+			                <div class="checkbox-container">
+			                    <label class="checkbox-value">30 mins</label>
+			                    <input id="checkbox4" name="filter"type="checkbox" value=".30 mins">
+			                    <span class="checkmark"></span> 
+			                </div>
+			                <div class="checkbox-container">
+			                    <label class="checkbox-value">45 mins</label>
+			                    <input id="checkbox5" name="filter"type="checkbox" value=".45 mins">
+			                    <span class="checkmark"></span> 
+			                </div>
+			                <div class="checkbox-container">
+			                    <label class="checkbox-value">60 mins</label>
+			                    <input id="checkbox6" name="filter"type="checkbox" value=".60 mins">
+			                    <span class="checkmark"></span> 
+			                </div>
+			            </div>
+			        </form>
+			    </div>
+			</aside>
+			<section id="main-content" class="col-sm-9">
+				<div class="view-content">
+				    <div class="clearfix">
+				        <div class="col-sm-3">
+				            <div id="recipe-1" class="box">
+				                <h4>Recipe 1</h4>
+				                <p> our recpies have been created through the idea of using all your easy-to-find left over food. </p>
+				            </div>
+				        </div>
+				        <div class="col-sm-3">
+				            <div id="recipe-2" class="box">
+				                <h4>Recipe 2</h4>
+				                <p> our recpies have been created through the idea of using all your easy-to-find left over food. </p>
+				            </div>
+				        </div>
+				        <div class="col-sm-3">
+				            <div  id="recipe-3" class="box">
+				                  <h4>Recipe 3</h4>
+				                  <p> our recpies have been created through the idea of using all your easy-to-find left over food. </p>
+				            </div>
+				        </div>
+				        <div class="col-sm-3">  
+				          <div id="recipe-4" class="box">
+				                <h4>Recipe 4</h4>	
+				                <p> our recpies have been created through the idea of using all your easy-to-find left over food. </p>
+				           
+				            </div>
+				        </div>
+				        <div class="col-sm-3">
+				            <div id="recipe-5" class="box">
+				                <h4>Recipe 5</h4>	
+				                <p> our recpies have been created through the idea of using all your easy-to-find left over food. </p>
+				            </div>
+				        </div>
+				        <div class="col-sm-3">
+				            <div id="recipe-6" class="box">
+				                <h4>Recipe 6</h4>
+				                <p> our recpies have been created through the idea of using all your easy-to-find left over food. </p>
+				            </div>
+				        </div>
+			    	</div>
+				</div>
 	            		
 
             </section>
