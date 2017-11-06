@@ -183,6 +183,20 @@ h2 {
     margin-bottom: 25px;
 }
 
+
+#main-content {
+  text-align: center;
+}
+#main-content p{
+  font-size: 15px;
+} 
+
+#main-content img {
+  height: 200px;
+  width: 250px;
+}
+
+
 footer{
     margin-bottom: 40px;
 }
