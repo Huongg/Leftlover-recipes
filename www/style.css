@@ -31,19 +31,17 @@ header h1{
     color: #ccb89a;
     position: static;
 }
-.logo {
-    margin: 10px 0 10px 0;
-    width: 200px;
 
-}
-img {
+.logo img {
     vertical-align: middle;
     border: 0;
     position: relative;
+    margin: 2px 0 0 0;
+    width: 350px;
 }
 .nav-menu ul {
     list-style-type: none;
-    margin: 0;
+    margin-bottom: 10px;
     padding: 0;
     overflow: hidden;
     background-color: #061f3a;
@@ -59,12 +57,12 @@ img {
     display: inline-block;
     padding: 10px 20px;
     background-color: #061f3a;
-    color: white;
+    color: #f0b5a8;
     font-size: 15px;
     border-radius: 0;
     border: 0;
-    border-top: solid #ccb89a 4px;
-    border-bottom: solid #ccb89a 4px;
+    border-bottom: solid #99e9ff 3px;
+    border-top: solid #99e9ff 3px;
     margin: 0 10px;
     font-weight: bold;
 }
@@ -81,16 +79,31 @@ body{
     background-color: #fff;
 }
 
-h2 {
+.h2-color{
     border-bottom: 1px dashed;
     padding: 10px;
     display: inline-block;
     font-size: 45px;
     margin-bottom: 25px;
+    color: #aba11d;
 }
+.about-box {
+    padding: 10px;
+    background-color: #F6F6F6;
+    height: 250px;
+    margin-bottom: 13px;
+    text-align: center;
+
+
+}
+.about-box img{
+  width: 40%;
+
+}
+
  p{
     font-family: 'FuturaBold', "Trebuchet MS", Arial, sans-serif;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: normal;
     font-style: normal;
     line-height: 1.4;
