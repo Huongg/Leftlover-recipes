@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ 	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Add icon library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="script.js"></script>
+	
+
+	<title></title>
+ </head>
+
+ <body>
+	<header class="main-header">
+		<div class="container-fluid">
+			<div class="inner">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="contact-info">
+							<!-- Add font awesome icons -->
+							<a href="#" class="fa fa-envelope"></a>
+							<a href="#" class="fa fa-twitter"></a>
+							<a href="#" class="fa fa-instagram"></a>
+							<a href="#" class="fa fa-facebook"></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="intro-container text-center">
+				<!--<img class="logo" src=/iCloud Drive/Documents/GitHub/Leftover-recipes/logo.svg> -->
+					<div class="row">
+						<div class="col-xs-12">
+								<img class="logo" src="/assets/logo.svg">
+								<!-- Navigation menu -->
+		    					<div class="nav-menu">
+									 <ul>
+									   <li><a href="#">About us</a></li>
+									   <li><a href="#">The Recipes</a></li>
+									   <li><a href="#">Join us</a></li>
+									 </ul>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</header>
+
+	<div class="container paddedOne">
+		<div class="row">
+				<div id="left-side" class="col-sx-12 col-md-5">
+					<h3 id="submit-recipe-h3">Submit your own recipe!</h3>
+					<img src="/img/logos/add image logo.gif">
+					<input type="hidden" name="form_type" value="submit-a-recipe">
+					<div class="form-group">
+						<div class="col-sm-10">
+							<form>
+								Upload Photo:<br>
+								<input type="file" onchange="previewFile()"><br>
+								<!--<img src="/assets/upload-photo.jpg" height="50" alt="">-->
+								<br>
+								<br>
+								Your Name:<br>
+  								<textarea id="inputa" class ="form-control" rows="1" name="name" value=""></textarea>
+  								<br>
+  								Your Email:<br>
+  								<textarea id="inputb" class ="form-control" rows="1" name="email" value=""></textarea>
+							  	<br>
+							  	<br>
+  							</form>		
+						</div>
+					</div> 
+				</div>
+				<div class="col-sx-12 col-md-7">
+							<form>
+								What type of dish is it?<br>
+  								<input type="radio" name="diatery" value="Vegetarian" checked>Vegetarian<br>
+							  	<input type="radio" name="diatery" value="African"> African<br>
+							  	<input type="radio" name="diatery" value="Vietnamese"> Vietnamese<br>
+								<br>
+								Cooking Time:<br>
+  								<input type="radio" name="time" value="30 mins" checked> 30 mins<br>
+							  	<input type="radio" name="time" value="45 mins"> 45 mins<br>
+							  	<input type="radio" name="time" value="60 mins"> 60 mins<br>
+							  	<br>
+								Recipe Title:<br>
+  								<textarea id="input2" class ="form-control" rows="1" name="recipetitle" value=""></textarea>
+  								<br>
+  								Enter Brief Description:<br>
+  								<textarea id="input3" class ="form-control" rows="2" name="enterbriefdescription" value=""></textarea>
+  								<br>
+  								Ingredients:<br>
+  								<textarea id="input4" class ="form-control" rows="2" name="ingredients" value=""></textarea>
+  								<br>
+  								Enter The Steps:<br>
+  								<textarea id="input5" class ="form-control" rows="3" name="enterthesteps" value=""></textarea>
+  								<br>
+							  	<button id="add-button" type="button">Submit</button>
+							  	<br>
+							  	<br>
+  							</form>		
+
+				</div>
+		</div>
+	</div>
+	<footer>
+		<div class="row">
+			<div class="col-sx-6 text-center">
+				<h2>Latest Recipes!</h2>
+				<p>Keep updated with our latest leftover food recipes.</p>
+
+				<!-- CTA Sign-up form -->
+				<form role='form'>
+			         <label for="email">Your Email</label>
+			         <input id="text-email" type="text" name="email" >
+			         <button id="submit-button" type="button">Stay Informed</button>
+			     </form>
+			 	<div class="response"></div>
+			<br>
+			<br>
+			
+		</div>
+	</footer>
+ </body>
+
+
+</html>
+

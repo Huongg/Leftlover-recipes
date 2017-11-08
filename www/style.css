@@ -12,6 +12,7 @@
 
 header{
     background-color: #061f3a;
+    margin-bottom: 20px;
 }
 header h1{
     color: #ccb89a;
@@ -196,11 +197,101 @@ h2 {
   width: 250px;
 }
 
-
-footer{
-    margin-bottom: 40px;
+#text-email{
+  border-radius: 6px;
+  border-color: #061f3a;
+  border-width: thin;
 }
-*/
+#submit-button {
+  background-color: #061f3a;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+}
+label {
+  font-size: 18px;
+}
+#add-button{
+  background-color: #061f3a;
+  border-radius: 100px;
+  color: white;
+  font-size: 20px;
+  width: 20%;
+}
+footer{
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+#submit-recipe-h3{
+  
+    background-color: #061f3a;
+    text-align: center;
+    width: 50%;
+    height: 100px;
+    -webkit-border-radius: 100px / 50px;
+    -moz-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    margin-top: 20px;
+
+}
+form {
+  margin-top: 40px;
+}
+
+
+#submit-recipe-h3 p{
+  text-align: center;
+  padding-top: 10%;
+  color: #ccb89a;
+}
+#left-side h1{
+  font-size: 25px;
+  color: #061f3a;
+}
+.radio-button input[type=radio]{
+  margin-left: -20px;
+}
+#upload-icon {
+  color: blue;
+}
+
+#inputa, #inputb {
+    width: 70%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: #061f3a;
+    border-radius: 3px;
+    border-style: double;
+}
+
+#input2 {
+    width: 50%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: #061f3a;
+    border-radius: 3px;
+    border-style: double;
+}
+
+#input3, #input4 {
+    width: 90%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    padding: 18px 20px;
+    border: #061f3a;
+    border-radius: 3px;
+    border-style: double;
+}
+
+#input5{
+    width: 90%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    padding: 60px 20px;
+    border: #061f3a;
+    border-radius: 3px;
+    border-style: double;
+}
 
 /* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {
@@ -208,4 +299,5 @@ footer{
         width: 100%;
     }
 }
+
 

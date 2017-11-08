@@ -13,11 +13,26 @@ $(document).ready(function(){
 	});
 
 
-	$('#button').click(function(){
+	$('#submit-button').click(function(){
 		var submitEmail = $('input[name=email]').val();
 		var emailResponse = "Thanks for subscribing your email " + "!";
 		//$('.response').append(emailResponse) ;
 		$('.response').text(emailResponse) ;
 	});
+
+	function previewFile() {
+	  var preview = document.querySelector('img');
+	  var file    = document.querySelector('input[type=file]').files[0];
+	  var reader  = new FileReader();
+
+	  reader.addEventListener("load", function () {
+	    preview.src = reader.result;
+	  }, false);
+
+	  if (file) {
+	    reader.readAsDataURL(file);
+  }
+}
+
 
 });
