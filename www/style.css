@@ -23,8 +23,8 @@ header h1{
 
 .fa {
     padding: 25px;
-    font-size: 40px;
-    width: 40px;
+    font-size: 90px;
+    width: 70px;
     float: right;
     text-decoration: none;
     border-radius: 20%;
@@ -234,12 +234,14 @@ footer{
     margin-top: 20px;
 
 }
-form {
+.col-sm-10{
   margin-top: 40px;
 }
+.col-sx-12 .col-md-7{
+  margin-top: ;
+}
 
-
-#submit-recipe-h3 p{
+#submit-recipe-h3 h3{
   text-align: center;
   padding-top: 10%;
   color: #ccb89a;
