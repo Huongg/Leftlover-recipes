@@ -57,12 +57,19 @@ input[type=text] {
     width: 100%;
     align-content: center;
 }
+#edit-submit-recipes-landing-block{
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
 
 /*Title of Search Box*/
 .block-title {
   text-align: center;
   font-weight: bold;
-  color: #f0b5a8;
+  color: #aba11d;
+  margin-top: 30px;
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
 }
 
 /*Search button*/
