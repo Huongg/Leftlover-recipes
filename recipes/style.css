@@ -1,0 +1,75 @@
+
+header{
+  background-color: #061f3a;
+}
+h1  {
+    text-align: center;
+    }
+
+img.align-center {
+    display:block;
+    margin: 0px auto;
+    border-radius:100px;
+    border: #061f3a 6px solid;
+    padding:0px;
+    }
+
+img.medium {
+    width:250px;
+    height:250px;
+    }
+
+table th {
+  padding: 5px;
+}
+
+#logo {
+  color: #061f3a;
+  font-size: 50px;
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+  padding:20px;
+}
+
+.ol {
+  width:250px;
+    }
+
+li {
+    margin:10px;
+    }
+
+/*Search box*/
+input[type=text] {
+    display: block;
+    height: 42px;
+    font-size: 20px;
+    line-height: 42px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text] {
+    width: 100%;
+    align-content: center;
+}
+
+/*Title of Search Box*/
+.block-title {
+  text-align: center;
+  font-weight: bold;
+  color: #f0b5a8;
+}
+
+/*Search button*/
+.views-exposed-widget {
+  text-align: center;
+}
+
+footer {
+  background-color: #061f3a;
+}
