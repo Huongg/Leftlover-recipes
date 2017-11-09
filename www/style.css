@@ -12,6 +12,7 @@
 
 header{
     background-color: #061f3a;
+    margin-bottom: 20px;
 }
 header h1{
     color: #ccb89a;
@@ -22,27 +23,25 @@ header h1{
 
 .fa {
     padding: 25px;
-    font-size: 40px;
-    width: 40px;
+    font-size: 90px;
+    width: 70px;
     float: right;
     text-decoration: none;
     border-radius: 20%;
     color: #ccb89a;
     position: static;
 }
-.logo {
-    margin: 10px 0 10px 0;
-    width: 200px;
 
-}
-img {
+.logo img {
     vertical-align: middle;
     border: 0;
     position: relative;
+    margin: 2px 0 0 0;
+    width: 350px;
 }
 .nav-menu ul {
     list-style-type: none;
-    margin: 0;
+    margin-bottom: 10px;
     padding: 0;
     overflow: hidden;
     background-color: #061f3a;
@@ -58,12 +57,12 @@ img {
     display: inline-block;
     padding: 10px 20px;
     background-color: #061f3a;
-    color: white;
+    color: #f0b5a8;
     font-size: 15px;
     border-radius: 0;
     border: 0;
-    border-top: solid #ccb89a 4px;
-    border-bottom: solid #ccb89a 4px;
+    border-bottom: solid #99e9ff 3px;
+    border-top: solid #99e9ff 3px;
     margin: 0 10px;
     font-weight: bold;
 }
@@ -80,16 +79,31 @@ body{
     background-color: #fff;
 }
 
-h2 {
+.h2-color{
     border-bottom: 1px dashed;
     padding: 10px;
     display: inline-block;
     font-size: 45px;
     margin-bottom: 25px;
+    color: #aba11d;
 }
+.about-box {
+    padding: 10px;
+    background-color: #F6F6F6;
+    height: 250px;
+    margin-bottom: 13px;
+    text-align: center;
+
+
+}
+.about-box img{
+  width: 40%;
+
+}
+
  p{
     font-family: 'FuturaBold', "Trebuchet MS", Arial, sans-serif;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: normal;
     font-style: normal;
     line-height: 1.4;
@@ -113,7 +127,7 @@ h2 {
 .checkbox-value {
   display: block;
   position: absolute;
-  padding-left: 30px;
+  padding-left: 10px;
   margin-bottom: 10px;
   margin-left: 10px;
   cursor: pointer;
@@ -127,7 +141,7 @@ h2 {
 
 
 /* Hide the browser's default checkbox */
-.custom-checkbox input {
+.checkbox-container input {
   position: absolute;
   opacity: 0;
 }
@@ -145,23 +159,24 @@ h2 {
 
 
 /* When the checkbox is checked, add a blue background */
-.checkbox-value input:checked ~ .checkmark {
-  background-color: #2196F3;
+.checkbox-container input:checked ~ .checkmark {
+  background-color: #061f3a;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
 .checkmark:after {
   content: "";
+  position: absolute;
   display: none;
 }
 
 /* Show the checkmark when checked */
-.custom-checkbox input:checked ~ .checkmark:after {
+.checkbox-container input:checked ~ .checkmark:after {
   display: block;
 }
 
 /* Style the checkmark/indicator */
-.custom-checkbox .checkmark:after {
+.checkbox-container.checkmark:after {
   left: 5px;
   top: 3px;
   width: 5px;
@@ -182,10 +197,116 @@ h2 {
     margin-bottom: 25px;
 }
 
-footer{
-    margin-bottom: 40px;
+
+#main-content {
+  text-align: center;
 }
-*/
+#main-content p{
+  font-size: 15px;
+} 
+
+#main-content img {
+  height: 200px;
+  width: 250px;
+}
+
+#text-email{
+  border-radius: 6px;
+  border-color: #061f3a;
+  border-width: thin;
+}
+#submit-button {
+  background-color: #061f3a;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+}
+label {
+  font-size: 18px;
+}
+#add-button{
+  background-color: #061f3a;
+  border-radius: 100px;
+  color: white;
+  font-size: 20px;
+  width: 20%;
+}
+footer{
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+#submit-recipe-h3{
+  
+    background-color: #061f3a;
+    text-align: center;
+    width: 50%;
+    height: 100px;
+    -webkit-border-radius: 100px / 50px;
+    -moz-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    margin-top: 20px;
+
+}
+.col-sm-10{
+  margin-top: 40px;
+}
+.col-sx-12 .col-md-7{
+  margin-top: ;
+}
+
+#submit-recipe-h3 h3{
+  text-align: center;
+  padding-top: 10%;
+  color: #ccb89a;
+}
+#left-side h1{
+  font-size: 25px;
+  color: #061f3a;
+}
+.radio-button input[type=radio]{
+  margin-left: -20px;
+}
+#upload-icon {
+  color: blue;
+}
+
+#inputa, #inputb {
+    width: 70%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: #061f3a;
+    border-radius: 3px;
+    border-style: double;
+}
+
+#input2 {
+    width: 50%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: #061f3a;
+    border-radius: 3px;
+    border-style: double;
+}
+
+#input3, #input4 {
+    width: 90%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    padding: 18px 20px;
+    border: #061f3a;
+    border-radius: 3px;
+    border-style: double;
+}
+
+#input5{
+    width: 90%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    padding: 60px 20px;
+    border: #061f3a;
+    border-radius: 3px;
+    border-style: double;
+}
 
 /* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {
@@ -193,4 +314,5 @@ footer{
         width: 100%;
     }
 }
+
 
