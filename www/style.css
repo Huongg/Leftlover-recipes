@@ -220,9 +220,15 @@ label {
 #add-button{
   background-color: #061f3a;
   border-radius: 100px;
+  text-decoration: none;
   color: white;
-  font-size: 20px;
-  width: 20%;
+  padding: 8px 22px 8px 22px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  font-size: 17px;
+  margin-top: 20px;
 }
 #read-more{
   border-radius: 80px;
