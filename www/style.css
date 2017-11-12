@@ -1,15 +1,5 @@
 
 
-/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap *
-@media screen and (max-height: 450px) {
-    .overlay a {font-size: 20px}
-    .overlay .closebtn {
-        font-size: 40px;
-        top: 15px;
-        right: 35px;
-    }
-*/
-
 header{
     background-color: #061f3a;
     margin-bottom: 20px;
@@ -239,8 +229,8 @@ label {
   color: #061f3a;
   background-color: #DCDCDC;
   border-width: thin;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 footer{
     margin-bottom: 60px;
