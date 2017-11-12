@@ -235,8 +235,14 @@ label {
   color: #061f3a;
   background-color: #DCDCDC;
   border-width: thin;
-  margin-top: 25px;
+  padding-top: 35px;
   margin-bottom: 25px;
+  text-decoration: none;
+  padding: 5px 10px 5px 10px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
 }
 footer{
     margin-bottom: 60px;
