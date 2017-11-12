@@ -167,7 +167,7 @@ body{
 }
 
 /* Style the checkmark/indicator */
-.checkbox-container.checkmark:after {
+.checkmark:after {
   left: 5px;
   top: 3px;
   width: 5px;
