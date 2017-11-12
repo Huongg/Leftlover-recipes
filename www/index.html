@@ -22,7 +22,6 @@
 		function openNav() {
 		    document.getElementById("myNav").style.width = "100%";
 		}
-
 		/* Close when someone clicks on the "x" symbol inside the overlay */
 		function closeNav() {
 		    document.getElementById("myNav").style.width = "0%";
@@ -53,8 +52,8 @@
 					<!--<img class="logo" src=/iCloud Drive/Documents/GitHub/Leftover-recipes/logo.svg> -->
 						<div class="row">
 							<div class="col-xs-12">
-									<img class="logo" src="/assets/logo1.png">
-									<!--<h1>The recipes we love </br>~.~</br>Huong & Jennifer</h1>-->
+									<img class="logo" src="/assets/logo.svg">
+									<h1>The recipes we love </br>~.~</br>Huong & Jennifer</h1>
 									<!-- Navigation menu -->
 			    					<div class="nav-menu">
 										 <ul>
@@ -73,22 +72,9 @@
 
 	<div class="Intro">
 		<div class="row">
-			<div class="col-md-3"></div>
-			<div id="About-Us" class="col-md-6 text-center">
-				<h2 class="h2-color">About Us</h2>
-					<div class="about-box">
-						<div class="clearfix">
-							
-								<img src="/assets/hello.png" class="pull-left gap-right" class="img-responsive">
-						
-						
-					
-							<h4>HI! WE'RE HUONG & JENNIFER<h4>
-							<p>We're so happy that you're here. You'll find the recipes that are<br>easy-to-make by just using your left-over at home. <br>Most of the recipes are inspired by Vietnamese and African cusines.<br> Scroll down find out more. </p>
-						</div>
-						
-					</div>
-			<div class="col-md-3"></div>	
+			<div id="About-Us" class="col-sx-12 text-center">
+				<h2>About Us</h2>
+				<p>Discover our home leftover food recipes combining from Vietnamese and African cushines. </p>
 			</div>
 		</div>
 	</div>	
@@ -96,7 +82,7 @@
 	<div class="container">
 		<div class="row">
 			<div id="Recipes"class="col-sx-12 text-center">
-				<h2 class="h2-color">The Recipes</h2>
+				<h2>The Recipes</h2>
 			</div>
 			<aside id="left-nav" class="col-sm-3" role="complementary">
 			    <div class="region region-sidebar-first well">
@@ -149,6 +135,9 @@
 				                <img src="/assets/banh-cuon.jpg/">
 				                <h4>Banh Cuon</h4>
 				                <p> our recpies have been created </p>
+				                <form role='form'>
+							         <button id="read-more" type="button"><strong>Read More</strong></button>
+							    </form>
 				            </div>
 				        </div>
 				     
@@ -157,6 +146,9 @@
 				            	<img src="/assets/chao.jpg/">
 				                <h4>Recipe 2</h4>
 				                <p> our recpies have been created </p>
+				                <form role='form'>
+							         <button id="read-more" type="button"><strong>Read More</strong></button>
+							    </form>
 				            </div>
 				        </div>
 				      
@@ -165,6 +157,9 @@
 				            	<img src="/assets/banh-chien.jpg/">
 				                <h4>Recipe 3</h4>
 				                <p> our recpies have been created through the idea of using all your easy-to-find left over food. </p>
+				                <form role='form'>
+							         <button id="read-more" type="button"><strong>Read More</strong></button>
+							    </form>
 				            </div>
 				        </div>
 				     
@@ -173,7 +168,9 @@
 				          		<img src="/assets/ramen-burger.jpg/">
 				                <h4>Recipe 4</h4>	
 				                <p> our recpies have been created through the idea of using all your easy-to-find left over food. </p>
-				           
+				           		<form role='form'>
+							         <button id="read-more" type="button"><strong>Read More</strong></button>
+							    </form>
 				            </div>
 				        </div>
 				        <div id="recipe-5" class="col-sm-4">
@@ -181,6 +178,9 @@
 				            	<img src="/assets/banh-chien.jpg/">
 				                <h4>Recipe 5</h4>	
 				                <p> our recpies have been created through the idea of using all your easy-to-find left over food. </p>
+				                <form role='form'>
+							         <button id="read-more" type="button"><strong>Read More</strong></button>
+							    </form>
 				            </div>
 				        </div>
 				        <div id="recipe-6" class="col-sm-4">
@@ -188,18 +188,19 @@
 				            	<img src="/assets/chao.jpg/">
 				                <h4>Recipe 6</h4>
 				                <p> our recpies have been created through the idea of using all your easy-to-find left over food. </p>
+				                <form role='form'>
+							         <button id="read-more" type="button"><strong>Read More</strong></button>
+							    </form>
 				            </div>
 				        </div>
 			    	</table>
 				</div>
-	            		
-
             </section>
 		</div>
 	</div>
 		<div class="row">
 			<div id="share-recipe" class="col-sx-6 text-center">
-					<h2 class="h2-color">Submit your own recipe!</h2>
+					<h2>Submit your own recipe!</h2>
 					<p>Do you have a wonderful Vietnamese/African recipe that you'd like to share.<br>We would love for you to upload it on our page!</p>
 					<form role='form'>
 				         <button id="add-button" type="button">Add a recipe</button>
@@ -210,7 +211,7 @@
 	<footer>
 		<div class="row">
 			<div class="col-sx-6 text-center">
-				<h2 class="h2-color">Latest Recipes!</h2>
+				<h2>Latest Recipes!</h2>
 				<p>Keep updated with our latest leftover food recipes.</p>
 				<form role='form'>
 			         <label for="email">Your Email</label>
@@ -227,7 +228,6 @@
 	<!--
 	<!- The overlay ->
 	<div id="myNav" class="overlay">
-
 		<!- Button to close the overlay navigation ->
 		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 		-->

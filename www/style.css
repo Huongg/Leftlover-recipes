@@ -224,12 +224,22 @@ body{
 label {
   font-size: 18px;
 }
+
+/* Buttons */
 #add-button{
   background-color: #061f3a;
   border-radius: 100px;
   color: white;
   font-size: 20px;
   width: 20%;
+}
+#read-more{
+  border-radius: 80px;
+  color: #061f3a;
+  background-color: #A9A9A9;
+  border-width: thin;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 footer{
     margin-bottom: 60px;
@@ -314,5 +324,3 @@ footer{
         width: 100%;
     }
 }
-
-
