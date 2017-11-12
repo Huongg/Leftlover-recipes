@@ -1,6 +1,60 @@
 header{
   background-color: #061f3a;
 }
+.fa {
+    padding: 25px;
+    font-size: 90px;
+    width: 70px;
+    float: right;
+    text-decoration: none;
+    border-radius: 20%;
+    color: #ccb89a;
+    position: static;
+}
+
+.logo img {
+    vertical-align: middle;
+    border: 0;
+    position: relative;
+    margin: 2px 0 0 0;
+    width: 450px;
+}
+.nav-menu ul {
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #061f3a;
+    display: inline-block;
+}
+
+.nav-menu li {
+    float: left;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #061f3a;
+    color: #f0b5a8;
+    font-size: 15px;
+    border-radius: 0;
+    border: 0;
+    border-bottom: solid #99e9ff 3px;
+    border-top: solid #99e9ff 3px;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+.nav-menu li a:hover {
+    background-color: #111;
+}
+.nav-menu{
+    text-align: center;
+}
 h1  {
     text-align: center;
     color: #aba11d;
