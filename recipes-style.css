@@ -1,0 +1,145 @@
+header{
+  background-color: #061f3a;
+}
+
+.fa {
+    padding: 25px;
+    font-size: 90px;
+    width: 70px;
+    float: right;
+    text-decoration: none;
+    border-radius: 20%;
+    color: #ccb89a;
+    position: static;
+}
+
+.logo img {
+    vertical-align: middle;
+    border: 0;
+    position: relative;
+    margin: 2px 0 0 0;
+    width: 450px;
+}
+.nav-menu ul {
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #061f3a;
+    display: inline-block;
+}
+
+.nav-menu li {
+    float: left;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #061f3a;
+    color: #f0b5a8;
+    font-size: 15px;
+    border-radius: 0;
+    border: 0;
+    border-bottom: solid #99e9ff 3px;
+    border-top: solid #99e9ff 3px;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+.nav-menu li a:hover {
+    background-color: #111;
+}
+.nav-menu{
+    text-align: center;
+}
+h1  {
+    text-align: center;
+    color: #aba11d;
+    font-family: 'Pacifico', cursive;
+    }
+
+img.align-center {
+    display:block;
+    margin: 0px auto;
+    border-radius:100px;
+    border: #061f3a 6px solid;
+    padding:0px;
+    }
+
+img.medium {
+    width:250px;
+    height:250px;
+    }
+
+/*heading and ingredients list*/
+
+.intro {
+  text-align: center;
+}
+
+.ingredients {
+  list-style-type: none;
+  text-align: center;
+}
+
+#logo {
+  color: #061f3a;
+  font-size: 50px;
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+  padding:20px;
+}
+
+.ol {
+  width:250px;
+    }
+
+li {
+    margin:10px;
+    }
+
+/*Search box*/
+input[type=text] {
+    display: block;
+    height: 42px;
+    font-size: 20px;
+    line-height: 42px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text] {
+    width: 100%;
+    align-content: center;
+}
+#edit-submit-recipes-landing-block{
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+/*Title of Search Box*/
+.block-title {
+  text-align: center;
+  font-weight: bold;
+  color: #aba11d;
+  margin-top: 30px;
+  font-family: 'Pacifico', 'Berkshire Swash', 'Cookie', sans-serif;
+  font-size: 30px;
+}
+
+/*Search button*/
+.views-exposed-widget {
+  text-align: center;
+}
+
+footer {
+  background-color: #061f3a;
+}
