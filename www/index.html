@@ -3,8 +3,10 @@
 <head>
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- Bootstrap -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 	<!-- Add icon library -->
@@ -16,23 +18,13 @@
 	<!-- jQuery/java script -->
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="script.js"></script>
+
+	<!-- Responsive Nav -
+	<link rel="stylesheet" href="responsive-nav.css">
+	<script src="responsive-nav.js"></script>-->
 	
 
-	<title></title>
- 
-	<!--
-	<script type="text/javascript">
-			/* Open when someone clicks on the span element */
-		function openNav() {
-		    document.getElementById("myNav").style.width = "100%";
-		}
-		/* Close when someone clicks on the "x" symbol inside the overlay */
-		function closeNav() {
-		    document.getElementById("myNav").style.width = "0%";
-	}
-	
-	</script>
-	-->
+	<title>The Recipes</title>
 
 </head>
 
@@ -59,11 +51,13 @@
 									<img class="logo" src="/assets/logo2.png">
 									<!-- Navigation menu -->
 			    					<div class="nav-menu">
+			    					  <nav class="nav-collapse">
 										 <ul>
 										   <li><a href="#About-Us">About us</a></li>
 										   <li><a href="#Recipes">The Recipes</a></li>
 										   <li><a href="#share-recipe">Share Your Recipe</a></li>
 										 </ul>
+									  </nav>
 									</div>
 							</div>
 						</div>
@@ -231,7 +225,7 @@
 
 	<footer>
 		<div class="row">
-			<div class="col-sx-6 text-center">
+			<div id="submit-your-email" class="col-sx-6 text-center">
 				<h2 class="h2-color">Latest Recipes!</h2>
 				<p>Keep updated with our latest leftover food recipes.</p>
 				<form role='form'>
@@ -240,9 +234,9 @@
 			         <button id="submit-button" type="button">Submit</button>
 			     </form>
 			 	<div class="response"></div>
-			<br>
-			<br>
-			
+				<br>
+				<br>
+			</div>
 		</div>
 	</footer>
 	
