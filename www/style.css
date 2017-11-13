@@ -187,17 +187,20 @@ body{
     margin-bottom: 25px;
 }
 
-
+/* MAIN CONTENT OF RECIPES */
 #main-content {
   text-align: center;
 }
 #main-content p{
   font-size: 15px;
+  max-height: 160px
+  max-width: 160px;
 } 
 
 #main-content img {
   height: 200px;
   width: 250px;
+  margin-top: 40px;
 }
 
 #text-email{
@@ -211,6 +214,23 @@ body{
   color: white;
   font-size: 16px;
 }
+#read-more{
+  border-radius: 80px;
+  color: #061f3a;
+  background-color: #DCDCDC;
+  border-width: thin;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
+
 label {
   font-size: 18px;
 }
@@ -233,20 +253,6 @@ label {
 /* Added hover to "Add recipe" button */
 #share-recipe a:hover {
   background-color: #808080;
-}
-#read-more{
-  border-radius: 80px;
-  color: #061f3a;
-  background-color: #DCDCDC;
-  border-width: thin;
-  padding-top: 35px;
-  margin-bottom: 25px;
-  text-decoration: none;
-  padding: 5px 10px 5px 10px;
-  border-top: 1px solid #CCCCCC;
-  border-right: 1px solid #333333;
-  border-bottom: 1px solid #333333;
-  border-left: 1px solid #CCCCCC;
 }
 
 #main-content a:hover {
