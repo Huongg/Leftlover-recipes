@@ -1,54 +1,56 @@
 
 $(document).ready(function(){
 	
-	$('#checkbox1').click(function() {              
-		$('#recipe-1').toggle();
-        $('#recipe-2').toggle();
-        $('#recipe-3').toggle();
-        $('#recipe-4').toggle();
-        $('#recipe-5').toggle();
-        $('#recipe-6').toggle();
-        $('#recipe-8').toggle();
+	$('#checkbox1').click(function() { 
+		$('#recipe-1').hide();
+        $('#recipe-2').hide();
+        $('#recipe-3').hide();
+        $('#recipe-4').hide();
+        $('#recipe-5').hide();
+        $('#recipe-6').hide();
+        $('#recipe-8').hide();
+    });
 
-	$('#checkbox2').click(function() {              
-		$('#recipe-1').toggle();
-        $('#recipe-3').toggle();
-        $('#recipe-5').toggle();
-        $('#recipe-7').toggle();
+	$('#checkbox2').click(function() {  
+		$('#recipe-1').hide();
+        $('#recipe-3').hide();
+        $('#recipe-5').hide();
+        $('#recipe-7').hide();
 	});
 
-	$('#checkbox3').click(function() {              
-		$('#recipe-2').toggle();
-        $('#recipe-4').toggle();
-        $('#recipe-6').toggle();
-        $('#recipe-8').toggle();
-        $('#recipe-9').toggle();
+	$('#checkbox3').click(function() {
+		$('#recipe-2').hide();
+        $('#recipe-4').hide();
+        $('#recipe-6').hide();
+        $('#recipe-8').hide();
+        $('#recipe-9').hide();
 	});
 
-	$('#checkbox4').click(function() {              
-		$('#recipe-1').toggle();
-        $('#recipe-3').toggle();
-        $('#recipe-4').toggle();
-        $('#recipe-7').toggle();
-        $('#recipe-8').toggle();
-        $('#recipe-9').toggle();
+	$('#checkbox4').click(function() { 
+		$('#recipe-1').hide();
+        $('#recipe-3').hide();
+        $('#recipe-4').hide();
+        $('#recipe-7').hide();
+        $('#recipe-8').hide();
+        $('#recipe-9').hide();
 	});
 
-	$('#checkbox5').click(function() {              
-		$('#recipe-2').toggle();
-        $('#recipe-5').toggle();
-        $('#recipe-6').toggle();
-        $('#recipe-7').toggle();
-        $('#recipe-8').toggle();
+	$('#checkbox5').click(function() {   
+		$('#recipe-2').hide();
+        $('#recipe-5').hide();
+        $('#recipe-6').hide();
+        $('#recipe-7').hide();
+        $('#recipe-8').hide();
 	});
-	$('#checkbox6').click(function() {              
-		$('#recipe-1').toggle();
-        $('#recipe-2').toggle();
-        $('#recipe-3').toggle();
-        $('#recipe-4').toggle();
-        $('#recipe-5').toggle();
-        $('#recipe-6').toggle();
-        $('#recipe-9').toggle();
+	$('#checkbox6').click(function() { 
+		$('#recipe-1').hide();
+        $('#recipe-2').hide();
+        $('#recipe-3').hide();
+        $('#recipe-4').hide();
+        $('#recipe-5').hide();
+        $('#recipe-6').hide();
+        $('#recipe-9').hide();
+
 	});
 
 	$('#submit-button').click(function(){
@@ -57,6 +59,8 @@ $(document).ready(function(){
 		//$('.response').append(emailResponse) ;
 		$('.response').text(emailResponse) ;
 	});
+
+	
 
 	function previewFile() {
 	  var preview = document.querySelector('img');
